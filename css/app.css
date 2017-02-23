@@ -6690,7 +6690,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     display: none !important; } }
 
 body {
-  background-color: #f7f7f9; }
+  background-color: #f7f7f9;
+  color: #292b2c; }
 
 #header-image {
   height: 45rem;
@@ -6699,16 +6700,20 @@ body {
   background-size: cover; }
 
 .navbar {
-  background: rgba(255, 255, 255, 0.97);
+  background: #f7f7f9;
+  color: #292b2c;
   height: 5rem;
   border-bottom: 6px #96b1dd solid; }
   .navbar .nav-item {
-    margin: 0rem 1.5rem; }
+    margin: 0 1.5rem; }
+    .navbar .nav-item .nav-link {
+      color: #292b2c; }
   .navbar .nav-item.active {
-    background-color: #6c8ebf; }
+    background-color: #6c8ebf;
+    color: #eceeef; }
 
 .logo {
-  color: black !important;
+  color: #292b2c !important;
   font-family: 'Cookie', cursive;
   font-size: 2.4rem; }
   .logo .base-color {
@@ -6746,7 +6751,7 @@ body {
     margin: 2rem auto;
     filter: invert(100%); }
   .card .card-block {
-    background-color: white; }
+    background-color: #fff; }
 
 .btn {
   border-radius: 2rem;
@@ -6754,10 +6759,9 @@ body {
   text-transform: uppercase; }
 
 #boxes {
-  margin-bottom: 2.5rem; }
+  padding-bottom: 5rem; }
 
 #contact {
-  margin-top: 2.5rem;
   padding: 5rem 0;
   background-color: #96b1dd;
   color: #292b2c; }
