@@ -6,6 +6,7 @@
  */
 
 // Core variables and mixins
+
 @import "variables";
 @import "../node_modules/bootstrap/scss/variables";
 @import "../node_modules/bootstrap/scss/mixins";
@@ -56,3 +57,4 @@
 
 // Base
 @import "base";
+@import "footer";
