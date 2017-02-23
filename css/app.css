@@ -331,7 +331,7 @@ blockquote {
   margin: 0 0 1rem; }
 
 a {
-  color: #f81214;
+  color: #f9a300;
   text-decoration: none; }
   a:focus, a:hover {
     color: #014c8c;
@@ -1985,23 +1985,23 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f81214;
-  border-color: #ea0709;
+  background-color: #f9a300;
+  border-color: #e09200;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075); }
   .btn-primary:hover {
     color: #fff;
-    background-color: #d10608;
-    border-color: #ae0507; }
+    background-color: #c68200;
+    border-color: #a26a00; }
   .btn-primary:focus, .btn-primary.focus {
-    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 2px rgba(234, 7, 9, 0.5); }
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15), 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 0 2px rgba(224, 146, 0, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
-    background-color: #f81214;
-    border-color: #ea0709; }
+    background-color: #f9a300;
+    border-color: #e09200; }
   .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #d10608;
+    background-color: #c68200;
     background-image: none;
-    border-color: #ae0507;
+    border-color: #a26a00;
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 
 .btn-secondary {
@@ -2110,23 +2110,23 @@ fieldset[disabled] a.btn {
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
 
 .btn-outline-primary {
-  color: #f81214;
+  color: #f9a300;
   background-image: none;
   background-color: transparent;
-  border-color: #f81214; }
+  border-color: #f9a300; }
   .btn-outline-primary:hover {
     color: #fff;
-    background-color: #f81214;
-    border-color: #f81214; }
+    background-color: #f9a300;
+    border-color: #f9a300; }
   .btn-outline-primary:focus, .btn-outline-primary.focus {
-    box-shadow: 0 0 0 2px rgba(248, 18, 20, 0.5); }
+    box-shadow: 0 0 0 2px rgba(249, 163, 0, 0.5); }
   .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-    color: #f81214;
+    color: #f9a300;
     background-color: transparent; }
   .btn-outline-primary:active, .btn-outline-primary.active, .show > .btn-outline-primary.dropdown-toggle {
     color: #fff;
-    background-color: #f81214;
-    border-color: #f81214; }
+    background-color: #f9a300;
+    border-color: #f9a300; }
 
 .btn-outline-secondary {
   color: #ccc;
@@ -2225,7 +2225,7 @@ fieldset[disabled] a.btn {
 
 .btn-link {
   font-weight: normal;
-  color: #f81214;
+  color: #f9a300;
   border-radius: 0; }
   .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled {
     background-color: transparent;
@@ -3175,7 +3175,7 @@ tbody.collapse.show {
 
 .card-outline-primary {
   background-color: transparent;
-  border-color: #f81214; }
+  border-color: #f9a300; }
 
 .card-outline-secondary {
   background-color: transparent;
@@ -6694,24 +6694,25 @@ body {
 
 #header-image {
   height: 45rem;
-  background-image: url(../img/kanye.jpg);
+  background-image: url(../img/yosemite.jpg);
+  background-position-y: -10rem;
   background-size: cover; }
 
 .navbar {
   background: rgba(255, 255, 255, 0.97);
   height: 5rem;
-  border-bottom: 6px #648cd4 solid; }
+  border-bottom: 6px #96b1dd solid; }
   .navbar .nav-item {
     margin: 0rem 1.5rem; }
   .navbar .nav-item.active {
-    background-color: #545dba; }
+    background-color: #6c8ebf; }
 
 .logo {
   color: black !important;
   font-family: 'Cookie', cursive;
   font-size: 2.4rem; }
   .logo .base-color {
-    color: #545dba; }
+    color: #6c8ebf; }
   .logo img {
     width: 2rem;
     margin-right: 1.5rem;
@@ -6728,18 +6729,18 @@ body {
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase; }
     .jumbotron .jumbotron-heading .fa-heart {
-      color: #545dba; }
+      color: #6c8ebf; }
   .jumbotron .container {
     max-width: 53rem;
     padding: 3rem;
     background: #f7f7f9;
-    border-top: 6px #648cd4 solid; }
+    border-top: 6px #96b1dd solid; }
   .jumbotron .container:first-child {
     box-shadow: 0px -28px 50px 1px rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem 0.5rem 0rem 0rem; }
 
 .card {
-  background-color: #545dba; }
+  background-color: #6c8ebf; }
   .card img {
     width: 40%;
     margin: 2rem auto;
@@ -6758,8 +6759,8 @@ body {
 #contact {
   margin-top: 2.5rem;
   padding: 5rem 0;
-  background-color: #648cd4;
-  color: #eceeef; }
+  background-color: #96b1dd;
+  color: #292b2c; }
   #contact .section-heading {
     font-family: "Roboto Condensed", sans-serif; }
 
@@ -6767,11 +6768,11 @@ hr.primary {
   width: 6rem;
   border: none;
   height: .2rem;
-  color: #eceeef;
-  background-color: #eceeef; }
+  color: #292b2c;
+  background-color: #292b2c; }
 
 .footer-distributed {
-  background-color: #545dba;
+  background-color: #6c8ebf;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
   box-sizing: border-box;
   width: 100%;
@@ -6810,7 +6811,7 @@ hr.primary {
   display: inline-block;
   width: 35px;
   height: 35px;
-  background-color: #f81214;
+  background-color: #f9a300;
   border-radius: 2px;
   font-size: 20px;
   color: #ffffff;
