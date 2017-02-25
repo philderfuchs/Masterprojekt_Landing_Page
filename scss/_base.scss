@@ -73,7 +73,7 @@ body {
 .jumbotron {
   background-color: transparent;
   margin-top: -18rem;
-  margin-bottom: -1rem;
+  margin-bottom: -5rem;
 
   .jumbotron-heading {
     font-weight: 300;
@@ -96,7 +96,7 @@ body {
   }
 
   .container:first-child {
-    @include box-shadow(0px -28px 50px 1px rgba(0,0,0,0.1));
+    @include box-shadow(0px -28px 50px 1px rgba(0,0,0,0.2));
     border-radius: 0.5rem 0.5rem 0rem 0rem;
   }
 }
